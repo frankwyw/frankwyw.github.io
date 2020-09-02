@@ -1,0 +1,6 @@
+[submodule "even"]
+	path = even
+	url = https://github.com/getzola/even
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/getzola/even
