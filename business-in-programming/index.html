@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+      <title> - Business In Programming</title>
+
+      
+
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;site.css">
+          
+      
+
+      
+      
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="/" class="logo">Blog</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io">
+                            主页
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;categories">
+                            分类
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags">
+                            标签
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;about">
+                            关于
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;frankwyw7.github.io">Blog</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io">
+                                    主页
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;categories">
+                                    分类
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags">
+                                    标签
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;about">
+                                    关于
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;business-in-programming&#x2F;">Business In Programming</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2020-02-03</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <p>Business In Programming!</p>
+<p><strong>业务是需求的体现，程序是业务的载体。</strong></p>
+<p><strong>业务支撑表设计，程序架构设计，代码编写。</strong> </p>
+<p id="zola-continue-reading"><a name="continue-reading"></a></p>
+<p> </p>
+<p>这里先简略的描述一下，未来有空详细谈谈（挖坑）：</p>
+<h3 id="yi-ye-wu-xi-tong-zhi-cheng-biao-she-ji">一、业务系统支撑表设计：</h3>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">1.能够成为业务实体的数据才能为其建表。
+</span><span style="color:#c0c5ce;">2.业务实体之间的关系体现了表与表之间的关系。
+</span><span style="color:#c0c5ce;">    i.表与表之间的关联字段；
+</span><span style="color:#c0c5ce;">    ii.基于不同业务关联的业务的表的区分设计；
+</span></pre><h3 id="er-cheng-xu-jia-gou-she-ji">二、程序架构设计：</h3>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">1.程序结构能够反应出业务之间的依赖关系，对于核心业务和依赖过多代码必然更加重视优化和性能。
+</span><span style="color:#c0c5ce;">2.能够梳理出有向无环图的业务流程，必然能够进行更好的代码分层结构，降低复杂度。
+</span><span style="color:#c0c5ce;">3.程序结构能够反应出真实情况下的组织结构。
+</span><span style="color:#c0c5ce;">    e.g：康威原则。不适合微结构的团队就不要搞微服务。
+</span><span style="color:#c0c5ce;">4）程序结构能够更多为其业务目的服务，在程序自身业务目的之外的需求不应由该程序完成。
+</span><span style="color:#c0c5ce;">    e.g：k8s力求成为一个平台，其程序结构也严格按照这个要求。而一个支持类似PaaS的需求，不应在k8s中实现，需在其他项目中依赖k8s，分层/隔离上下文/降低复杂度。
+</span></pre><h3 id="san-dai-ma-bian-xie">三、代码编写：</h3>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">1.某一个API中代码的具体操作能够反应这个业务流程。
+</span><span style="color:#c0c5ce;">2.函数/变量命名，函数/类/数据结构抽象能反应和接近这个业务抽象。
+</span><span style="color:#c0c5ce;">3.业务抽象的表达，可以选择更简单常见的技术抽象手段来（如dsl，迭代器，stream）表达业务抽象。
+</span><span style="color:#c0c5ce;">4.业务抽象的隔离，选择技术抽象来隔离容易变化的业务抽象（分层隔离），控制变化，降低复杂度。</span></pre>
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+                <div class="post-tags">
+                    
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags&#x2F;programming&#x2F;">#programming</a>
+                    
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags&#x2F;ye-wu&#x2F;">#业务</a>
+                    
+                </div>
+            
+            
+                <div class="post-nav">
+                    
+                        <a class="previous" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;hello-world&#x2F;">‹ Hello World!</a>
+                    
+                    
+                        <a class="next" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;spring-in-my-view&#x2F;">Sping in my view ›</a>
+                    
+                    
+                    
+                </div>
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;even.js" ></script>
+      
+    </body>
+
+</html>

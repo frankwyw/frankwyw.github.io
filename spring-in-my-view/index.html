@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+      <title> - Sping in my view</title>
+
+      
+
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;site.css">
+          
+      
+
+      
+      
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="/" class="logo">Blog</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io">
+                            主页
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;categories">
+                            分类
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags">
+                            标签
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;about">
+                            关于
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;frankwyw7.github.io">Blog</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io">
+                                    主页
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;categories">
+                                    分类
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags">
+                                    标签
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;about">
+                                    关于
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;spring-in-my-view&#x2F;">Sping in my view</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2020-02-14</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <p>spring正统治者java web开发界，任何一个java web开发者都绕不开spring。搜一下网络，看一眼官网，密密麻麻的spring相关的资料引入眼帘，让人丈二和尚摸不着头脑。我现在依然能够想起曾经在项目上第一次接触spring时那个无知和茫然。对任何spring新手来讲，需要面对的第一个问题便是：<strong>spring到底是什么？</strong></p>
+<p id="zola-continue-reading"><a name="continue-reading"></a></p>
+<hr />
+<h2 id="springde-han-yi">spring的含义</h2>
+<p>回答一下spring是什么？
+我认为spring有以下2类含义：</p>
+<ol>
+<li>狭义的spring框架，也就是最开始仅支持aop/ioc的依赖注入框架。这是spring的核心。</li>
+<li>广义的spring生态，围绕spring框架的一系列开发组件，在spring框架为基础的开发模式下，涵盖了在web领域的方方面面，能够体现web领域的主流的技术和思想变化。如spring-boot、spring-data、spring-cloud、spring-security等等。
+ </li>
+</ol>
+<hr />
+<h2 id="springde-fa-zhan-shi">spring的发展史</h2>
+<p>spring这个词从框架到生态，这其中的发展史可以一栏web的变化。</p>
+<p>spring框架起源于当时介绍依赖注入的书籍《Expert One-on-One J2EE设计和开发》，</p>
+<p>在后来的web潮流中随着xml的流行增加xml的支持，</p>
+<p>也随着对配置简化和快速构建项目的需求出现了java配置和spring boot，</p>
+<p>在微服务流行之际出现了spring cloud，</p>
+<p>在如今响应式编程有些抬头的时候也不忘推出WebFlux来支持。</p>
+<p><strong>spring生态的发展史，几乎可以说是大家对web领域的探究。</strong>
+ </p>
+<hr />
+<h2 id="springde-jie-gou">spring的结构</h2>
+<p>spring的生态中，以spring框架为基础，遵循某类设计的一系列组件。而我们在使用spring生态内的东西的时候，也是会按照某类开发模式（pattern，一个以spring框架为基础构建的pattern）进行的。</p>
+<h3 id="metadata-logic-datade-pattern"><strong>metadata/logic/data的pattern</strong></h3>
+<p>这个模式也可以名为metadata（context）/logic/data，
+本质上是一类事物。</p>
+<ul>
+<li>metadata指的是当前环境的信息，也是程序中的元信息，根据环境而变化。</li>
+<li>logic指的是程序中的逻辑，反映了程序的业务/执行逻辑，根据需求变化而变化。</li>
+<li>status值得是程序中的存储数据/状态，反映了反映的是业务用户的信息，根据用户变化而变化。</li>
+</ul>
+<h3 id="springjie-gou-dui-patternde-dui-zhao">spring结构对pattern的对照</h3>
+<p>按照上面的pattern的划分，我们可以对应到常见的spring的web程序结构中来：</p>
+<ol>
+<li>metadata:一系列properties/yaml，</li>
+<li>logic:一系列controller/service/repo，</li>
+<li>status:一系列数据库/缓存数据。</li>
+</ol>
+<p>一个新API，</p>
+<ul>
+<li>如果需要读取新环境数据，需要properties的变化，并把这个变量值依赖注入到bean的计算逻辑中。</li>
+<li>需要新逻辑需要计算中改变那些controller/service/repo的部分逻辑；</li>
+<li>需要引用现有的数据辅助计算，需要读取数据库/缓存，并反映到controller/service/repo的计算逻辑中。
+ </li>
+</ul>
+<hr />
+<h2 id="kai-fa-zhe-zai-springzhong-dui-logiche-metadatade-shi-yong">开发者在spring中对logic和metadata的使用</h2>
+<p>而对开发者来讲，一般能修改的便是logic和metedata</p>
+<h3 id="logicjie-zhu-yi-lai-zhu-ru-biao-da-yi-lai-guan-xi"><strong>logic借助依赖注入表达依赖关系</strong></h3>
+<p>logic的使用依靠bean与bean之间的引用（依赖注入）。</p>
+<p>spring框架之中，代码（或者说类/组件）与代码的交互是依靠bean来统一管理的。
+bean想要引用其他bean必须依靠依赖注入来表达。</p>
+<p>拿常见的web开发下的mvc模式来说，Controller一类的bean里必须要引用Service一类的bean才能使用。
+同时，bean之间的引用存在一定的依赖关系，因此在bean的依赖注入（autowired）时需要注意这种顺序。</p>
+<h3 id="metadatadao-ru"><strong>metadata导入</strong></h3>
+<p>元数据，也可以说是配置，依赖于外部环境的一些数据，靠依赖注入的方式注入到bean，配置不同环境下的不同bean。在properties或者yaml文件中定义元数据（配置）的具体值。</p>
+<p>比如，拿常见的spring的jdbc初始化来讲。
+单数据源下的jdbc初始化，一般采用默认配置，所以我们只需要在properties或者yaml文件中配置环境变量即可。可以从多数据源下，一窥spring中存在依赖关系引用的bean之间的使用。<a href="https://stackoverflow.com/questions/30362546/how-to-use-2-or-more-databases-with-spring">参考代码</a></p>
+<p> </p>
+<hr />
+<h2 id="springzhong-zu-jian-de-chu-shi-hua-shun-xu">spring中组件的初始化顺序</h2>
+<p>为了满足status的使用，spring会在程序可以真正工作前，完成对metadata（properties）和logic（bean）的初始化，对外只会对用户开放stauts的变化。因此，而我们可以看一眼spring的初始化顺序，对properties/bean的加载和使用。</p>
+<p>spring应用中，应用的所有信息都保存在applicationContext，spring初始化也就是从applicationcontext开始初始化的。最终会调用<a href="https://github.com/spring-projects/spring-framework/blob/3a0f309e2c9fdbbf7fb2d348be861528177f8555/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java#L515-L577">refresh函数</a></p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">@</span><span style="color:#bf616a;">Override
+ </span><span style="color:#b48ead;">public</span><span style="color:#c0c5ce;"> void </span><span style="color:#bf616a;">refresh</span><span style="color:#c0c5ce;">() throws </span><span style="color:#ebcb8b;">BeansException</span><span style="color:#c0c5ce;">, </span><span style="color:#ebcb8b;">IllegalStateException </span><span style="color:#c0c5ce;">{
+  </span><span style="color:#b48ead;">synchronized </span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">this</span><span style="color:#c0c5ce;">.startupShutdownMonitor) {
+   </span><span style="color:#65737e;">// Prepare this context for refreshing.（包括properties或者yaml的环境变量，以及在设置pre-refresh的监听器）
+   </span><span style="color:#bf616a;">prepareRefresh</span><span style="color:#c0c5ce;">();
+
+   </span><span style="color:#65737e;">// Tell the subclass to refresh the internal bean factory.（获得能够创建bean的工厂，工厂模式）
+   </span><span style="color:#ebcb8b;">ConfigurableListableBeanFactory</span><span style="color:#c0c5ce;"> beanFactory = </span><span style="color:#bf616a;">obtainFreshBeanFactory</span><span style="color:#c0c5ce;">();
+
+   </span><span style="color:#65737e;">// Prepare the bean factory for use in this context.
+   </span><span style="color:#bf616a;">prepareBeanFactory</span><span style="color:#c0c5ce;">(beanFactory);（准备bean工厂相关的上下文，得到bean的原始信息，扫描bean，准备EventPublisher，</span><span style="color:#ebcb8b;">ResourceLoader等等都在这里</span><span style="color:#c0c5ce;">，常见的scan一类注解在这里起作用）
+
+   </span><span style="color:#b48ead;">try </span><span style="color:#c0c5ce;">{
+    </span><span style="color:#65737e;">// Allows post-processing of the bean factory in context subclasses.（注册bean工厂相关的post-processing的processor，在工厂创建完成之后）
+    </span><span style="color:#bf616a;">postProcessBeanFactory</span><span style="color:#c0c5ce;">(beanFactory);
+
+    </span><span style="color:#65737e;">// Invoke factory processors registered as beans in the context.（执行bean工厂相关的post-processing的processor，在工厂创建完成之后）
+    </span><span style="color:#bf616a;">invokeBeanFactoryPostProcessors</span><span style="color:#c0c5ce;">(beanFactory);
+
+    </span><span style="color:#65737e;">// Register bean processors that intercept bean creation.（在bean工厂中注册bean创建完成后的postProcessor）
+    </span><span style="color:#bf616a;">registerBeanPostProcessors</span><span style="color:#c0c5ce;">(beanFactory);
+
+    </span><span style="color:#65737e;">// Initialize message source for this context.（为应用上下文准备数据源/消息源）
+    </span><span style="color:#bf616a;">initMessageSource</span><span style="color:#c0c5ce;">();
+
+    </span><span style="color:#65737e;">// Initialize event multicaster for this context.（准备应用事件的广播器）
+    </span><span style="color:#bf616a;">initApplicationEventMulticaster</span><span style="color:#c0c5ce;">();
+
+    </span><span style="color:#65737e;">// Initialize other special beans in specific context subclasses.（初始化其他特殊bean）
+    </span><span style="color:#bf616a;">onRefresh</span><span style="color:#c0c5ce;">();
+
+    </span><span style="color:#65737e;">// Check for listener beans and register them.（注册和检查listener相关的bean）
+    </span><span style="color:#bf616a;">registerListeners</span><span style="color:#c0c5ce;">();
+
+    </span><span style="color:#65737e;">// Instantiate all remaining (non-lazy-init) singletons.（初始化所有non-lazy-init的bean，non-lazy-init指非延迟初始化的bean）
+    </span><span style="color:#bf616a;">finishBeanFactoryInitialization</span><span style="color:#c0c5ce;">(beanFactory);
+
+    </span><span style="color:#65737e;">// Last step: publish corresponding event.（发布spring的初始化完成event）
+    </span><span style="color:#bf616a;">finishRefresh</span><span style="color:#c0c5ce;">();
+   }
+
+   </span><span style="color:#b48ead;">catch </span><span style="color:#c0c5ce;">(</span><span style="color:#ebcb8b;">BeansException </span><span style="color:#bf616a;">ex</span><span style="color:#c0c5ce;">) {
+    </span><span style="color:#b48ead;">if </span><span style="color:#c0c5ce;">(logger.</span><span style="color:#bf616a;">isWarnEnabled</span><span style="color:#c0c5ce;">()) {
+     logger.</span><span style="color:#bf616a;">warn</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Exception encountered during context initialization - </span><span style="color:#c0c5ce;">&quot; +
+       &quot;</span><span style="color:#a3be8c;">cancelling refresh attempt: </span><span style="color:#c0c5ce;">&quot; + ex);
+    }
+
+    </span><span style="color:#65737e;">// Destroy already created singletons to avoid dangling resources.
+    </span><span style="color:#bf616a;">destroyBeans</span><span style="color:#c0c5ce;">();
+
+    </span><span style="color:#65737e;">// Reset &#39;active&#39; flag.
+    </span><span style="color:#bf616a;">cancelRefresh</span><span style="color:#c0c5ce;">(ex);
+
+    </span><span style="color:#65737e;">// Propagate exception to caller.
+    </span><span style="color:#b48ead;">throw</span><span style="color:#c0c5ce;"> ex;
+   }
+
+   </span><span style="color:#b48ead;">finally </span><span style="color:#c0c5ce;">{
+    </span><span style="color:#65737e;">// Reset common introspection caches in Spring&#39;s core, since we
+    // might not ever need metadata for singleton beans anymore...
+    </span><span style="color:#bf616a;">resetCommonCaches</span><span style="color:#c0c5ce;">();
+   }
+  }
+ }
+</span></pre>
+<p>建立在这个部分代码之上的，便是spring的众多组件围绕的大生态。
+如spring-boot，也会利用其中的机制形成一个新组件，满足人们对快速开发的需求。
+<a href="https://www.jianshu.com/p/8f3b9af9bb33">参考代码</a></p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+                <div class="post-tags">
+                    
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags&#x2F;spring&#x2F;">#spring</a>
+                    
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags&#x2F;ji-zhu&#x2F;">#技术</a>
+                    
+                </div>
+            
+            
+                <div class="post-nav">
+                    
+                        <a class="previous" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;business-in-programming&#x2F;">‹ Business In Programming</a>
+                    
+                    
+                        <a class="next" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;talk-about-complexity&#x2F;">Talk About Complexity ›</a>
+                    
+                    
+                    
+                </div>
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;even.js" ></script>
+      
+    </body>
+
+</html>

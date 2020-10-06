@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://frankwyw7.github.io</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://frankwyw7.github.io/categories/ji-zhu/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Context In The Work Communicate</title>
+                <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+                <link>https://frankwyw7.github.io/context-in-the-work-communicate/</link>
+                <guid>https://frankwyw7.github.io/context-in-the-work-communicate/</guid>
+                <description>&lt;p&gt;现在的编程工作，已经不再是上世纪一个人单打独斗就能完成，更多的在于我们团队间的协作和沟通。因此，提升协作和沟通效率这类软技能也是日常工作中的重要一环。那就需要问有什么方式能够提高我们的沟通效率呢？&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;context, not control
+—— 《奈飞文化手册》&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;这是在奈飞文化里重的重要一环，体现了某类做事方式和沟通方式。&lt;&#x2F;p&gt;
+&lt;p&gt;下面会介绍下我认为的体现context，not control的做事方式&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Talk About Complexity</title>
+                <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+                <link>https://frankwyw7.github.io/talk-about-complexity/</link>
+                <guid>https://frankwyw7.github.io/talk-about-complexity/</guid>
+                <description>&lt;blockquote&gt;
+&lt;p&gt;软件工程的核心就是控制复杂度
+—— 《代码大全》&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;这是在软件工程领域流传甚久的一句话。&lt;&#x2F;p&gt;
+&lt;p&gt;纵观其书，《代码大全》作为软件工程的经典书籍，里面给出了编程工作的方方面面体现对复杂度的控制。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;1.然而不仅我们要问复杂度是什么？&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;2.在软件工程领域，有什么方式能够控制复杂度？&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Sping in my view</title>
+                <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+                <link>https://frankwyw7.github.io/spring-in-my-view/</link>
+                <guid>https://frankwyw7.github.io/spring-in-my-view/</guid>
+                <description>&lt;p&gt;spring正统治者java web开发界，任何一个java web开发者都绕不开spring。搜一下网络，看一眼官网，密密麻麻的spring相关的资料引入眼帘，让人丈二和尚摸不着头脑。我现在依然能够想起曾经在项目上第一次接触spring时那个无知和茫然。对任何spring新手来讲，需要面对的第一个问题便是：&lt;strong&gt;spring到底是什么？&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

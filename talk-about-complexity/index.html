@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+      <title> - Talk About Complexity</title>
+
+      
+
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+          
+      
+
+      
+          <link rel="stylesheet" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;site.css">
+          
+      
+
+      
+      
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="mobile-navbar" class="mobile-navbar">
+              <div class="mobile-header-logo">
+                <a href="/" class="logo">Blog</a>
+              </div>
+              <div class="mobile-navbar-icon icon-out">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+              <ul class="mobile-menu-list">
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io">
+                            主页
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;categories">
+                            分类
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags">
+                            标签
+                        </a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;about">
+                            关于
+                        </a>
+                    </li>
+                
+              </ul>
+            </nav>
+
+            <header id="header">
+                <div class="logo"><a href="https:&#x2F;&#x2F;frankwyw7.github.io">Blog</a></div>
+                <nav class="menu">
+                    <ul>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io">
+                                    主页
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;categories">
+                                    分类
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags">
+                                    标签
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;about">
+                                    关于
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="content" id="mobile-panel">
+                    
+
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;talk-about-complexity&#x2F;">Talk About Complexity</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">2020-03-11</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <blockquote>
+<p>软件工程的核心就是控制复杂度
+—— 《代码大全》</p>
+</blockquote>
+<p>这是在软件工程领域流传甚久的一句话。</p>
+<p>纵观其书，《代码大全》作为软件工程的经典书籍，里面给出了编程工作的方方面面体现对复杂度的控制。</p>
+<p><strong>1.然而不仅我们要问复杂度是什么？</strong></p>
+<p><strong>2.在软件工程领域，有什么方式能够控制复杂度？</strong></p>
+<p id="zola-continue-reading"><a name="continue-reading"></a></p>
+<hr />
+<h2 id="fu-za-du-shi-shi-yao">复杂度是什么</h2>
+<p>首先思考第一个问题——复杂度是什么？</p>
+<p>我想但凡是程序员，第一次接触复杂度这个词必然是“算法复杂度”这个词。</p>
+<p>算法复杂度是指算法在编写成可执行程序后，运行时所需要的资源，资源包括时间资源和内存资源。时间复杂度如按照O(1),O(n),O(logn),O(n^2)排列，时间复杂度在一般场景下都是越来越慢的。</p>
+<p>另外参考<a href="https://baike.baidu.com/item/%E5%A4%8D%E6%9D%82%E5%BA%A6">复杂度的百科</a></p>
+<blockquote>
+<p>复杂度（计算机复杂性理论）
+计算复杂性理论（Computational complexity theory）是计算理论的一部分，研究计算问题时所需的资源，比如时间和空间，以及如何尽可能的节省这些资源。</p>
+</blockquote>
+<p>可以简单理解为复杂度用于衡量完成某类问题所需要的资源的指标。
+ </p>
+<hr />
+<h2 id="zen-yao-kong-zhi-fu-za-du">怎么控制复杂度</h2>
+<p>接着，思考第二个问题——如何控制复杂度。</p>
+<p>那基于软件工程领域的场景，软件工程的复杂度显而易见，就是指完成/交付某类软件功能所需要的资源。这个资源包括我们人天资源，人力资源，硬件资源等等。而衡量软件工程复杂度控制的好坏，也就是利用最优的资源比达成软件功能完成/交付，也就是提升效率。</p>
+<h3 id="jiang-di-fu-za-du">降低复杂度</h3>
+<p>思考一下，面对一个复杂问题。可能我们会建模，会抽象，去简单化它。没错，第一个控制复杂度的方法便是<strong>降低复杂度</strong>。因为复杂度越小，越容易管理。</p>
+<p>代码设计上，
+抽象降低复杂度，
+复用降低复杂度。
+KISS使其简单，降低复杂度。</p>
+<p>好的命名/符合业务的代码结构使代码更加可读，降低复杂度。</p>
+<p>自动化降低复杂度。持续集成/持续交付自动化减少人为控制。</p>
+<p>tdd降低重构复杂度，能够交代api上下文/使用场景。</p>
+<p>设计模式降低复杂度，降低沟通成本和学习成本。</p>
+<p>ddd将业务映射在代码中，能够随着业务变化而变化，降低复杂度。</p>
+<h3 id="fu-za-du-qie-fen">复杂度切分</h3>
+<p>再换一个场景，我们再次面对一个复杂问题，假设我们已经做了足够多的简化/建模，但是它依然比较复杂/难以处理，我们可能就会分而治之，按照目标一个个解决。是的，这就是分治思想，切分单个复杂问题为几个简单问题，将<strong>复杂度切分</strong>。</p>
+<p>微服务增加复杂度，但是将庞大的复杂度切分，以便人为控制复杂度。</p>
+<p>分层在切分复杂度，模块化切分复杂度。
+ </p>
+<hr />
+<h2 id="final">Final</h2>
+<p>一言以蔽之，尽量降低软件工程的复杂度（抽象，kiss，命名，重构），但在某些场景下可以切分复杂度（分层，模块化，微服务）</p>
+<p> </p>
+<hr />
+<h2 id="other">Other</h2>
+<p>复杂度管理不仅仅存在软件领域。
+想想非软件领域的复杂度管理。
+职业专业化/社会分工便是切分复杂度，
+划分职能部门也是在公司管理上切分复杂度，
+诸如此类等等。</p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+                <div class="post-tags">
+                    
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags&#x2F;ji-zhu&#x2F;">#技术</a>
+                    
+                        <a href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;tags&#x2F;si-kao&#x2F;">#思考</a>
+                    
+                </div>
+            
+            
+                <div class="post-nav">
+                    
+                        <a class="previous" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;spring-in-my-view&#x2F;">‹ Sping in my view</a>
+                    
+                    
+                        <a class="next" href="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;context-in-the-work-communicate&#x2F;">Context In The Work Communicate ›</a>
+                    
+                    
+                    
+                </div>
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+                </div>
+            </main>
+
+            
+            
+        </div>
+
+      
+          <script type="text/javascript" src="https:&#x2F;&#x2F;frankwyw7.github.io&#x2F;even.js" ></script>
+      
+    </body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://frankwyw7.github.io</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://frankwyw7.github.io/tags/ye-wu/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Business In Programming</title>
+                <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+                <link>https://frankwyw7.github.io/business-in-programming/</link>
+                <guid>https://frankwyw7.github.io/business-in-programming/</guid>
+                <description>&lt;p&gt;Business In Programming!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;业务是需求的体现，程序是业务的载体。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;业务支撑表设计，程序架构设计，代码编写。&lt;&#x2F;strong&gt; &lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

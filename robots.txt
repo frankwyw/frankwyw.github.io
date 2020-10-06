@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://frankwyw7.github.io/sitemap.xml

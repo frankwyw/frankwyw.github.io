@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://frankwyw7.github.io</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://frankwyw7.github.io/tags/spring/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 14 Feb 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Sping in my view</title>
+                <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+                <link>https://frankwyw7.github.io/spring-in-my-view/</link>
+                <guid>https://frankwyw7.github.io/spring-in-my-view/</guid>
+                <description>&lt;p&gt;spring正统治者java web开发界，任何一个java web开发者都绕不开spring。搜一下网络，看一眼官网，密密麻麻的spring相关的资料引入眼帘，让人丈二和尚摸不着头脑。我现在依然能够想起曾经在项目上第一次接触spring时那个无知和茫然。对任何spring新手来讲，需要面对的第一个问题便是：&lt;strong&gt;spring到底是什么？&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
